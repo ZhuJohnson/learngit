@@ -1,8 +1,13 @@
+1. add and commit change
 git add
 git commit -m ""
+2. check status and commit log 
 git status
 git log --pretty=oneline
 git reflog
+3. reset to former version
 git reset --hard=commit_id
 git reset --hard=HEAD^
 git reset --hard=HEAD~1
+4. undo the change which is ahead of the version
+git checkout -- file 
