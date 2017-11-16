@@ -12,4 +12,6 @@ git reset --hard=HEAD~1
 4. undo the change which is ahead of the version
 git checkout -- file
 5. undo the change in cache area
-git reset HEAD file 
+git reset HEAD file
+6. delete file
+git rm file 
