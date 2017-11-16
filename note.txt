@@ -1,0 +1,8 @@
+git add
+git commit -m ""
+git status
+git log --pretty=oneline
+git reflog
+git reset --hard=commit_id
+git reset --hard=HEAD^
+git reset --hard=HEAD~1
