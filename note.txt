@@ -23,4 +23,7 @@ git push origin master
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=3600'
 10. create and switch to new branch
-git checkout -b dev 
+git checkout -b dev
+11. merge selected branch to master branch 
+git checkout master
+git merge dev
