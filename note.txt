@@ -14,4 +14,9 @@ git checkout -- file
 5. undo the change in cache area
 git reset HEAD file
 6. delete file
-git rm file 
+git rm file
+7. push existing folder to git repo
+git remote add origin git@github.com:xxxxxxxx.git
+8. push latest change to remote git repo
+git push origin master
+ 
