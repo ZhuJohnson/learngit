@@ -21,4 +21,6 @@ git remote add origin git@github.com:xxxxxxxx.git
 git push origin master
 9. cache your password
 git config --global credential.helper cache
-git config --global credential.helper 'cache --timeout=3600' 
+git config --global credential.helper 'cache --timeout=3600'
+10. create and switch to new branch
+git checkout -b dev 
